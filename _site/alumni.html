@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>R Notebook</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -304,14 +304,22 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">R Notebook</h1>
 
 </div>
 
 
-<div id="p1" class="section level1">
-<h1>p1</h1>
-<p>publishing r markdown</p>
-</div>
+<p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Cmd+Shift+Enter</em>.</p>
+<pre class="r"><code>db &lt;- data.frame(a = c(1,2,3), b = c(&#39;a&#39;, &#39;b&#39;, &#39;c&#39;), c = c(&#39;azul&#39;, &#39;azul&#39;, &#39;verde&#39;))</code></pre>
+<p>Ahora metemos la formula <span class="math inline">\(Z^2 = X^2 + Y^2\)</span> en el siguiente casillero.</p>
+<pre class="r"><code>x &lt;- db[1,1]
+y &lt;- db[2,1]
+#---enter code here: delete line and enter your code
+z &lt;- x + y
+#---
+z</code></pre>
+<pre><code>## [1] 3</code></pre>
+<p>Felicitaciones!</p>
 
 
 
