@@ -2,4 +2,10 @@
 title: "About This Website"
 ---
 
-More about this website.
+More about this website [^1].
+
+
+[Follow the link for the exercise](https://www.kaggle.com/damokaggle/probando/edit/run/15709255)
+
+
+[^1]: {just clarifying} 

@@ -2,11 +2,15 @@
 title: "R Notebook"
 ---
 
+#. This page is intended for exercises
+
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
 
 ```{r}
 db <- data.frame(a = c(1,2,3), b = c('a', 'b', 'c'), c = c('azul', 'azul', 'verde'))
 ```
+
+##. Check this out
 
 Ahora metemos la formula $Z^2  = X^2 + Y^2$ en el siguiente casillero.
 
